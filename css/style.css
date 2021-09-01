@@ -1,3 +1,35 @@
+#content{
+    width:1020px;
+    text-align:center;
+}
+header{
+    border:1px solid gray;
+}
+nav ul{
+    list-style-type: none;
+}
+
+main{
+    background-color: blue;
+    height:400px;
+}
 footer{
-    background-color: antiquewhite;
+    border:1px solid gray;
+    padding:20px;
+}
+#topnav{
+    position:relative;
+    background-color:aquamarine;
+    overflow:hidden;
+}
+
+#topnav ul{
+    overflow: hidden;
+}
+#topnav a{
+    position:absolute;
+    float:none;
+    display:inline-block;
+    top:50%;
+    left:50%;
 }
